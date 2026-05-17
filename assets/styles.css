@@ -1,0 +1,559 @@
+/* ===========================================================================
+   Spencer Stuart dashboard - custom theme
+   Brand palette: navy #163056, gold #FBCC11, cream #F7F4EE
+   =========================================================================== */
+
+:root {
+  --ss-navy: #163056;
+  --ss-navy-dark: #0E2241;
+  --ss-gold: #FBCC11;
+  --ss-gold-soft: #F6E08A;
+  --ss-cream: #F7F4EE;
+  --ss-white: #FFFFFF;
+  --ss-ink: #1B1B1B;
+  --ss-muted: #6B7280;
+  --ss-border: #E5E1D7;
+  --ss-success: #2E7D5B;
+  --ss-danger: #B23A48;
+  --ss-warning: #C98A1A;
+  --ss-shadow: 0 8px 24px rgba(22, 48, 86, 0.08);
+  --ss-shadow-soft: 0 2px 8px rgba(22, 48, 86, 0.05);
+  --ss-serif: "Lora", "Georgia", "Times New Roman", serif;
+  --ss-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--ss-cream);
+  color: var(--ss-ink);
+  font-family: var(--ss-sans);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ss-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--ss-cream);
+}
+
+/* ---------- Navbar -------------------------------------------------------- */
+.ss-navbar {
+  background: var(--ss-navy) !important;
+  padding: 12px 0;
+  border-bottom: 3px solid var(--ss-gold);
+}
+
+.ss-navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.ss-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ss-logo {
+  height: 38px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+.ss-brand-block {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  color: var(--ss-white);
+}
+
+.ss-brand-name {
+  font-family: var(--ss-serif);
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ss-brand-title {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.ss-meta {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  color: var(--ss-white);
+}
+
+.ss-meta-label {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ss-meta-date {
+  font-family: var(--ss-serif);
+  font-size: 16px;
+}
+
+/* Timeframe selector --------------------------------------------------- */
+.ss-timeframe-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.ss-timeframe-label {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ss-timeframe {
+  display: inline-flex !important;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  padding: 4px;
+  gap: 2px;
+}
+
+.ss-timeframe .ss-timeframe-btn {
+  border: none !important;
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 999px !important;
+  padding: 6px 18px !important;
+  font-size: 12px !important;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.ss-timeframe .ss-timeframe-btn:hover {
+  color: var(--ss-white) !important;
+}
+
+.ss-timeframe .ss-timeframe-btn.active {
+  background: var(--ss-gold) !important;
+  color: var(--ss-navy) !important;
+  font-weight: 600;
+}
+
+/* ---------- Tagline strip ------------------------------------------------- */
+.ss-tagline {
+  background: linear-gradient(135deg, var(--ss-navy) 0%, var(--ss-navy-dark) 100%);
+  color: var(--ss-white);
+  padding: 36px 0 56px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ss-tagline::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  top: -120px;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(251, 204, 17, 0.18), transparent 70%);
+  pointer-events: none;
+}
+
+.ss-tagline-inner {
+  position: relative;
+  z-index: 2;
+}
+
+.ss-tagline-eyebrow {
+  display: inline-block;
+  padding: 4px 12px;
+  background: rgba(251, 204, 17, 0.18);
+  color: var(--ss-gold);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+
+.ss-tagline-title {
+  font-family: var(--ss-serif);
+  font-weight: 500;
+  font-size: 28px;
+  max-width: 720px;
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* ---------- Content area -------------------------------------------------- */
+.ss-content {
+  padding: 0 24px 48px;
+  margin-top: -32px;
+  flex: 1;
+}
+
+.ss-top-row {
+  margin-bottom: 8px;
+}
+
+.ss-section-header {
+  margin: 24px 4px 12px;
+}
+
+.ss-section-eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ss-gold);
+  font-weight: 600;
+}
+
+.ss-section-title {
+  font-family: var(--ss-serif);
+  color: var(--ss-navy);
+  font-weight: 600;
+  font-size: 20px;
+  margin: 4px 0 0;
+}
+
+/* ---------- Generic card -------------------------------------------------- */
+.ss-card {
+  background: var(--ss-white);
+  border: 1px solid var(--ss-border);
+  border-radius: 4px;
+  box-shadow: var(--ss-shadow-soft);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.ss-card:hover {
+  box-shadow: var(--ss-shadow);
+}
+
+.ss-card .card-body {
+  padding: 18px 20px;
+}
+
+/* ---------- Filter card --------------------------------------------------- */
+.ss-filter-card {
+  border-top: 3px solid var(--ss-navy);
+}
+
+.ss-filter-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ss-muted);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.ss-dropdown .Select-control,
+.ss-dropdown .Select-menu-outer,
+.ss-dropdown .Select-value,
+.ss-dropdown .Select-placeholder {
+  font-family: var(--ss-sans) !important;
+  color: var(--ss-ink) !important;
+}
+
+.ss-dropdown .Select-control {
+  border: 1px solid var(--ss-border) !important;
+  border-radius: 2px !important;
+  min-height: 38px;
+}
+
+.ss-dropdown .is-focused .Select-control {
+  border-color: var(--ss-navy) !important;
+  box-shadow: 0 0 0 2px rgba(22, 48, 86, 0.08) !important;
+}
+
+/* ---------- Notes trigger (sits next to dropdowns) ----------------------- */
+.ss-notes-trigger {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 2px;
+  border: 1px solid var(--ss-border);
+  background: var(--ss-white);
+  cursor: pointer;
+  user-select: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.ss-notes-trigger:hover,
+.ss-notes-trigger:focus {
+  border-color: var(--ss-navy);
+  box-shadow: 0 0 0 2px rgba(22, 48, 86, 0.08);
+  outline: none;
+}
+
+.ss-trigger-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.ss-trigger-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ss-ink);
+  flex: 1;
+}
+
+.ss-trigger-count {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ss-muted);
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--ss-cream);
+}
+
+.ss-trigger-warn .ss-trigger-icon { color: var(--ss-warning); }
+.ss-trigger-warn .ss-trigger-text { color: var(--ss-navy); }
+.ss-trigger-warn { border-left: 3px solid var(--ss-warning); }
+
+.ss-trigger-clean .ss-trigger-icon { color: var(--ss-success); }
+.ss-trigger-clean { border-left: 3px solid var(--ss-success); }
+
+/* ---------- Download PDF button ----------------------------------------- */
+.ss-pdf-btn {
+  height: 38px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px !important;
+  border: 1px solid var(--ss-navy) !important;
+  background: var(--ss-navy) !important;
+  color: var(--ss-white) !important;
+  font-size: 12px !important;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ss-pdf-btn:hover,
+.ss-pdf-btn:focus {
+  background: var(--ss-gold) !important;
+  border-color: var(--ss-gold) !important;
+  color: var(--ss-navy) !important;
+  box-shadow: 0 0 0 2px rgba(251, 204, 17, 0.25) !important;
+  outline: none;
+}
+
+.ss-pdf-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ---------- Notes popover ------------------------------------------------- */
+.ss-notes-popover {
+  max-width: 460px !important;
+  border: 1px solid var(--ss-border);
+  border-top: 3px solid var(--ss-gold);
+  border-radius: 4px;
+  box-shadow: var(--ss-shadow);
+  background: var(--ss-white);
+}
+
+.ss-notes-popover .popover-inner,
+.ss-notes-popover .popover-body,
+.ss-notes-popover-body {
+  padding: 16px 18px !important;
+  background: var(--ss-white);
+  border-radius: 0 0 4px 4px;
+}
+
+.ss-notes-popover-body .ss-section-header {
+  margin: 0 0 12px;
+}
+
+.ss-notes-popover-body .ss-section-title {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.ss-notes-popover-body .ss-notes-grid {
+  margin-top: 0;
+}
+
+.ss-notes-popover-body .ss-note {
+  margin: 0;
+}
+
+.ss-notes-grid {
+  display: grid;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.ss-note {
+  border-left: 3px solid var(--ss-gold);
+  padding: 10px 14px;
+  background: var(--ss-cream);
+  border-radius: 2px;
+}
+
+.ss-note.ss-note-warning {
+  border-left-color: var(--ss-warning);
+}
+
+.ss-note.ss-note-info {
+  border-left-color: var(--ss-navy);
+}
+
+.ss-note-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 2px;
+}
+
+.ss-note-title {
+  font-family: var(--ss-serif);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ss-navy);
+}
+
+.ss-note-count {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--ss-navy);
+  color: var(--ss-white);
+  letter-spacing: 0.04em;
+}
+
+.ss-note-text {
+  font-size: 12px;
+  color: var(--ss-muted);
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.ss-note-ids {
+  font-family: "SFMono-Regular", "Menlo", monospace;
+  font-size: 11px;
+  color: var(--ss-navy);
+  word-break: break-word;
+}
+
+/* ---------- KPI cards ----------------------------------------------------- */
+.ss-kpi-row {
+  margin-top: 18px;
+}
+
+.ss-kpi-card {
+  height: 100%;
+  border-top: 3px solid var(--ss-navy);
+}
+
+.ss-kpi-card .card-body {
+  padding: 16px 18px;
+}
+
+.ss-kpi-title {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ss-muted);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.ss-kpi-value {
+  font-family: var(--ss-serif);
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--ss-navy);
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+
+.ss-kpi-delta {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--ss-muted);
+}
+
+.ss-kpi-arrow { font-size: 10px; }
+.ss-kpi-delta-text { font-weight: 600; }
+.ss-kpi-delta-period { color: var(--ss-muted); font-weight: 400; }
+
+.ss-kpi-positive .ss-kpi-arrow,
+.ss-kpi-positive .ss-kpi-delta-text { color: var(--ss-success); }
+
+.ss-kpi-negative .ss-kpi-arrow,
+.ss-kpi-negative .ss-kpi-delta-text { color: var(--ss-danger); }
+
+.ss-kpi-neutral .ss-kpi-arrow,
+.ss-kpi-neutral .ss-kpi-delta-text { color: var(--ss-muted); }
+
+/* ---------- Charts -------------------------------------------------------- */
+.ss-charts { margin-top: 12px; }
+
+.ss-chart-card .card-body {
+  padding: 8px 12px 4px;
+}
+
+.ss-chart-card .js-plotly-plot,
+.ss-chart-card .plotly,
+.ss-chart-card .main-svg {
+  border-radius: 4px;
+}
+
+/* ---------- Footer -------------------------------------------------------- */
+.ss-footer {
+  background: var(--ss-navy-dark);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 18px 0;
+  margin-top: 32px;
+  border-top: 3px solid var(--ss-gold);
+}
+
+.ss-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+
+.ss-footer-left { font-family: var(--ss-serif); }
+
+/* ---------- Responsive tweaks -------------------------------------------- */
+@media (max-width: 768px) {
+  .ss-navbar-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .ss-meta { text-align: left; }
+  .ss-tagline-title { font-size: 22px; }
+  .ss-content { padding: 0 12px 32px; }
+  .ss-footer-inner { flex-direction: column; gap: 6px; text-align: center; }
+}

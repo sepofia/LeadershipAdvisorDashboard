@@ -1,0 +1,609 @@
+engagement_id,start_date,close_date,region,country,practice,level,client_size,lead_partner,status,fee_kEUR
+E0001,2024-04-09,2024-07-19,Americas,BR,Financial Services,VP,Large,Partner D,Closed,140.2
+E0002,2025-11-19,2026-02-06,EMEA,UK,Technology,VP,Small,Partner C,Open,70.9
+E0003,2024-12-12,2025-05-13,APAC,JP,Technology,CxO,Large,Partner B,Closed,146.5
+E0004,2024-08-20,2024-11-03,Americas,BR,Financial Services,CxO,Large,Partner D,Closed,203.2
+E0005,2024-11-21,2025-03-31,EMEA,FR,Consumer,VP,Medium,Partner D,Closed,84.3
+E0006,2024-07-05,,APAC,JP,Industrial,CxO,Large,Partner C,On Hold,203.1
+E0007,2025-09-27,,Americas,CA,Financial Services,VP,Large,Partner E,Open,143.5
+E0008,2025-12-30,,Americas,BR,Technology,CxO,Large,Partner B,Open,158.5
+E0009,2024-03-02,2024-05-06,EMEA,DE,Technology,CxO,Medium,Partner A,Cancelled,134.0
+E0010,2025-06-08,2025-12-03,EMEA,ES,Technology,VP,Small,Partner C,Closed,69.3
+E0011,2024-09-01,2024-12-28,EMEA,FR,Industrial,Board,Medium,Partner E,Closed,172.2
+E0012,2024-02-04,2024-07-18,APAC,JP,Consumer,CxO,Medium,Partner B,Closed,135.2
+E0013,2025-11-04,2026-01-31,Americas,CA,Consumer,VP,Small,Partner B,Closed,102.9
+E0014,2024-02-15,2024-04-22,Americas,BR,Consumer,VP,Medium,Partner A,Closed,122.2
+E0015,2024-05-30,2024-09-17,EMEA,NL,Consumer,VP,Small,Partner E,Closed,102.6
+E0016,2024-01-19,2024-03-17,EMEA,NL,Consumer,CxO,Large,Partner B,Closed,191.7
+E0017,2024-12-10,2025-06-11,Americas,CA,Technology,Board,Medium,Partner C,Closed,182.4
+E0018,2025-03-13,2025-06-25,EMEA,FR,Technology,VP,Small,Partner E,Closed,69.1
+E0019,2024-08-22,2025-02-27,Americas,BR,Technology,Board,Small,Partner A,Closed,108.6
+E0020,2024-02-22,2024-09-16,Americas,CA,Financial Services,CxO,Small,Partner C,Closed,129.9
+E0021,2024-03-25,,Americas,CA,Technology,CxO,Medium,Partner C,On Hold,152.9
+E0022,2025-11-12,,EMEA,UK,Consumer,CxO,Small,Partner D,Open,105.3
+E0023,2025-08-11,2025-11-30,APAC,JP,Industrial,VP,Medium,Partner B,Closed,126.1
+E0024,2025-11-14,,APAC,AU,Financial Services,VP,Small,Partner C,Open,71.2
+E0025,2025-01-22,2025-06-05,Americas,CA,Technology,VP,Medium,Partner A,Closed,77.8
+E0026,2025-02-02,,EMEA,ES,Technology,Board,Medium,Partner D,On Hold,178.3
+E0027,2025-07-27,,EMEA,NL,Technology,CxO,Medium,Partner D,On Hold,115.9
+E0028,2025-03-26,2025-07-22,EMEA,ES,Consumer,CxO,Medium,Partner A,Closed,141.4
+E0029,2024-11-14,2025-02-12,EMEA,NL,Financial Services,Board,Small,Partner B,Closed,136.8
+E0030,2024-08-01,2025-03-15,Americas,US,Industrial,CxO,Small,Partner E,Closed,108.7
+E0031,2024-12-20,2025-06-14,Americas,BR,Technology,CxO,Small,Partner A,Closed,95.2
+E0032,2024-02-16,,APAC,JP,Financial Services,Board,Large,,On Hold,243.0
+E0033,2024-05-20,2024-09-06,EMEA,ES,Financial Services,CxO,Large,Partner C,Closed,168.2
+E0034,2025-06-22,,EMEA,FR,Industrial,VP,Large,Partner B,On Hold,132.3
+E0035,2025-09-25,2026-01-07,EMEA,FR,Industrial,Board,Medium,Partner B,Closed,143.1
+E0036,2024-03-15,2024-10-09,EMEA,DE,Technology,CxO,Medium,Partner C,Closed,183.5
+E0037,2024-03-11,2024-03-31,EMEA,NL,Consumer,VP,Medium,Partner A,Cancelled,138.2
+E0038,2024-03-03,2024-09-11,EMEA,NL,Technology,VP,Large,Partner C,Closed,110.3
+E0039,2025-07-31,2025-09-22,EMEA,DE,Consumer,VP,Large,Partner D,Closed,154.2
+E0040,2024-08-15,2025-04-30,Americas,US,Technology,CxO,Large,Partner C,Closed,161.2
+E0041,2024-08-26,2025-01-09,EMEA,UK,Technology,VP,Large,Partner A,Closed,131.7
+E0042,2024-01-10,2024-08-02,Americas,BR,Consumer,CxO,Medium,Partner D,Closed,106.7
+E0043,2025-12-10,,Americas,BR,Technology,CxO,Large,Partner A,Open,171.4
+E0044,2024-11-12,2025-07-04,EMEA,UK,Financial Services,Board,Large,Partner D,Closed,225.0
+E0045,2025-08-05,2025-11-09,Americas,BR,Financial Services,CxO,Medium,Partner B,Closed,128.7
+E0046,2025-05-31,2025-12-06,Americas,BR,Technology,CxO,Large,Partner D,Closed,193.9
+E0047,2024-04-13,2024-12-19,EMEA,ES,Industrial,CxO,Small,Partner B,Closed,105.8
+E0048,2025-08-07,,EMEA,UK,Consumer,VP,Large,Partner A,Open,142.1
+E0049,2025-02-05,2025-10-21,Americas,US,Consumer,CxO,Large,Partner C,Closed,188.1
+E0050,2025-03-17,2025-05-30,EMEA,ES,Financial Services,CxO,Small,Partner A,Cancelled,102.7
+E0051,2024-05-26,2024-10-20,EMEA,DE,Financial Services,Board,Medium,Partner B,Closed,151.8
+E0052,2025-09-10,2026-03-29,EMEA,UK,Technology,CxO,Small,Partner D,Closed,109.3
+E0053,2025-11-11,,Americas,US,Technology,CxO,Large,Partner D,Open,122.0
+E0054,2024-10-23,2025-06-01,Americas,BR,Technology,CxO,Large,Partner A,Closed,173.4
+E0055,2024-03-08,2024-04-10,Americas,CA,Consumer,CxO,Medium,Partner E,Cancelled,113.4
+E0056,2025-09-11,,Americas,US,Consumer,VP,Large,Partner D,On Hold,132.9
+E0057,2025-10-09,,EMEA,DE,Industrial,VP,Small,Partner E,Open,72.9
+E0058,2025-01-04,2025-08-31,Americas,CA,Financial Services,CxO,Medium,Partner D,Closed,144.6
+E0059,2025-02-26,2025-08-28,EMEA,UK,Financial Services,VP,Medium,Partner D,Closed,123.2
+E0060,2024-06-11,,EMEA,ES,Financial Services,VP,Small,Partner C,On Hold,79.8
+E0061,2024-02-19,2024-05-19,Americas,US,Financial Services,VP,Medium,Partner D,Closed,95.7
+E0062,2025-11-20,,EMEA,ES,Financial Services,VP,Medium,Partner E,Open,103.2
+E0063,2024-12-18,2025-08-08,Americas,CA,Technology,VP,Medium,Partner A,Closed,117.7
+E0064,2024-07-19,2025-02-11,Americas,BR,Technology,VP,Medium,Partner B,Closed,112.2
+E0065,2025-05-21,2025-10-09,Americas,US,Consumer,VP,Large,Partner A,Closed,108.8
+E0066,2024-01-20,2024-05-04,Americas,US,Financial Services,CxO,Medium,Partner E,Closed,149.5
+E0067,2024-02-28,2024-06-11,Americas,US,Consumer,Board,Large,Partner C,Closed,184.0
+E0068,2024-06-26,2024-11-04,EMEA,DE,Technology,Board,Medium,Partner D,Closed,156.2
+E0069,2024-11-24,2025-01-27,EMEA,ES,Financial Services,CxO,Medium,Partner D,Closed,127.6
+E0070,2024-09-24,2024-12-25,EMEA,NL,Technology,CxO,Medium,Partner E,Closed,150.1
+E0071,2024-05-16,2024-09-10,EMEA,DE,Technology,CxO,Medium,Partner A,Closed,131.9
+E0072,2024-09-13,2024-11-06,EMEA,NL,Technology,CxO,Medium,Partner D,Cancelled,118.2
+E0073,2024-08-31,2025-03-10,APAC,JP,Technology,CxO,Medium,Partner E,Closed,187.3
+E0074,2025-01-18,2025-07-14,EMEA,FR,Consumer,VP,Small,Partner A,Closed,82.5
+E0075,2025-02-14,2025-03-04,EMEA,FR,Financial Services,Board,Medium,Partner D,Cancelled,151.2
+E0076,2025-10-06,,EMEA,FR,Industrial,CxO,Medium,Partner B,Open,105.8
+E0077,2025-08-11,2025-12-10,EMEA,FR,Financial Services,VP,Medium,Partner C,Closed,92.9
+E0078,2024-08-01,2024-10-07,Americas,BR,Financial Services,VP,Large,Partner C,Cancelled,139.1
+E0079,2025-10-20,,Americas,US,Financial Services,VP,Medium,Partner B,Open,81.9
+E0080,2025-01-15,2025-07-29,Americas,BR,Technology,VP,Large,Partner A,Closed,135.8
+E0081,2024-05-17,2024-07-22,Americas,BR,Consumer,VP,Large,Partner A,Closed,137.4
+E0082,2024-09-05,2025-02-17,EMEA,FR,Industrial,CxO,Large,Partner A,Closed,183.5
+E0083,2025-06-25,2025-08-12,Americas,CA,Industrial,CxO,Large,Partner C,Closed,176.5
+E0084,2025-08-22,2025-12-03,EMEA,ES,Financial Services,CxO,Small,Partner B,Closed,89.5
+E0085,2024-09-30,2025-01-11,EMEA,DE,Technology,VP,Medium,Partner B,Closed,120.2
+E0086,2024-04-25,2024-06-13,EMEA,NL,Consumer,VP,Small,Partner D,Closed,84.8
+E0087,2024-05-20,2024-06-27,Americas,BR,Financial Services,CxO,Large,Partner D,Cancelled,191.4
+E0088,2024-03-16,2024-10-18,EMEA,DE,Technology,CxO,Medium,Partner C,Closed,165.0
+E0089,2025-05-25,2025-12-10,EMEA,NL,Financial Services,CxO,Medium,Partner E,Closed,145.1
+E0090,2025-01-02,2025-05-19,EMEA,FR,Industrial,Board,Large,Partner B,Closed,205.5
+E0091,2024-11-25,2025-06-30,EMEA,DE,Industrial,CxO,Small,Partner D,Closed,98.3
+E0092,2025-05-05,2025-12-16,Americas,BR,Industrial,Board,Medium,Partner A,Closed,167.0
+E0093,2025-08-27,2026-02-05,EMEA,UK,Industrial,VP,Large,Partner D,Closed,127.9
+E0094,2025-08-03,2026-02-19,EMEA,NL,Technology,CxO,Small,Partner E,Closed,76.4
+E0095,2024-04-10,2024-06-28,EMEA,ES,Consumer,VP,Medium,Partner D,Cancelled,123.4
+E0096,2025-03-06,2025-09-01,Americas,CA,Financial Services,VP,Large,Partner C,Closed,133.4
+E0097,2025-10-06,,EMEA,DE,Industrial,CxO,Small,Partner C,On Hold,121.2
+E0098,2025-07-18,2026-02-01,EMEA,FR,Technology,Board,Medium,Partner B,Closed,169.9
+E0099,2024-08-28,2025-03-08,EMEA,UK,Consumer,VP,Medium,Partner D,Closed,108.8
+E0100,2024-10-13,2025-05-31,APAC,SG,Technology,CxO,Medium,Partner D,Closed,131.1
+E0101,2025-10-11,,APAC,JP,Technology,VP,Small,Partner E,Open,69.4
+E0102,2024-01-24,2024-07-25,Americas,CA,Financial Services,Board,Large,Partner C,Closed,225.9
+E0103,2025-01-18,2025-03-19,EMEA,FR,Technology,VP,Large,Partner A,Closed,153.7
+E0104,2024-03-25,2024-07-08,APAC,JP,Technology,VP,Small,Partner C,Closed,94.6
+E0105,2025-10-15,2026-03-04,Americas,CA,Industrial,CxO,Medium,Partner A,Closed,156.6
+E0106,2024-01-29,2024-07-21,Americas,BR,Financial Services,CxO,Medium,Partner B,Closed,156.7
+E0107,2024-01-18,2024-06-04,EMEA,DE,Consumer,VP,Large,Partner B,Closed,115.8
+E0108,2024-08-28,2024-10-29,EMEA,DE,Technology,CxO,Medium,Partner D,Closed,149.8
+E0109,2024-05-26,2024-08-26,EMEA,UK,Industrial,CxO,Small,Partner A,Closed,88.7
+E0110,2024-12-27,2025-09-02,APAC,JP,Financial Services,CxO,Small,Partner A,Closed,103.7
+E0111,2024-08-06,2025-02-10,EMEA,UK,Industrial,CxO,Large,Partner A,Closed,141.7
+E0112,2024-09-17,2025-02-09,EMEA,DE,Financial Services,VP,Medium,Partner E,Closed,136.3
+E0113,2025-02-16,2025-08-05,EMEA,FR,Financial Services,VP,Large,Partner D,Closed,134.1
+E0114,2025-02-13,2025-10-30,Americas,BR,Consumer,CxO,Medium,Partner A,Closed,172.1
+E0115,2025-11-13,,EMEA,ES,Financial Services,VP,Large,Partner A,Open,147.9
+E0116,2024-12-16,,APAC,SG,Technology,CxO,Small,Partner C,On Hold,118.0
+E0117,2025-02-15,2025-06-29,Americas,BR,Industrial,Board,Small,Partner B,Closed,128.2
+E0118,2025-05-09,,Americas,CA,Consumer,CxO,Large,Partner C,Open,131.0
+E0119,2024-05-07,,EMEA,UK,Technology,VP,Large,Partner C,On Hold,139.1
+E0120,2025-05-01,2025-12-13,Americas,CA,Financial Services,Board,Medium,Partner E,Closed,171.0
+E0121,2025-09-21,,Americas,US,Consumer,CxO,Medium,Partner B,On Hold,157.7
+E0122,2024-08-20,2025-02-23,Americas,US,Industrial,CxO,Medium,Partner D,Closed,125.0
+E0123,2024-05-10,2024-12-28,EMEA,UK,Consumer,VP,Medium,Partner A,Closed,119.3
+E0124,2024-09-09,2024-11-21,EMEA,ES,Financial Services,Board,Small,Partner E,Closed,125.8
+E0125,2024-07-19,2024-10-22,EMEA,ES,Industrial,CxO,Large,Partner E,Closed,195.7
+E0126,2025-03-03,2025-08-09,EMEA,NL,Technology,VP,Medium,Partner D,Closed,110.9
+E0127,2025-09-22,,EMEA,FR,Consumer,CxO,Large,Partner C,On Hold,203.1
+E0128,2025-03-11,2025-05-01,EMEA,NL,Financial Services,CxO,Small,Partner B,Closed,127.2
+E0129,2024-04-01,2024-08-26,EMEA,FR,Industrial,CxO,Small,Partner D,Closed,101.2
+E0130,2024-08-17,2024-12-26,Americas,CA,Financial Services,CxO,Medium,Partner D,Closed,155.4
+E0131,2025-05-18,2025-07-20,EMEA,UK,Financial Services,CxO,Medium,Partner B,Open,144.2
+E0132,2024-08-29,,APAC,JP,Industrial,VP,Medium,Partner C,Closed,150.6
+E0133,2025-03-04,,Americas,CA,Financial Services,VP,Small,Partner C,On Hold,70.1
+E0134,2025-05-21,2026-01-07,EMEA,ES,Consumer,VP,Large,Partner D,Closed,145.1
+E0135,2024-08-28,2024-11-02,Americas,CA,Financial Services,VP,Large,Partner D,Closed,134.3
+E0136,2025-04-17,2025-06-30,EMEA,ES,Industrial,CxO,Large,Partner C,Closed,150.1
+E0137,2024-10-17,2025-05-01,APAC,AU,Financial Services,CxO,Small,Partner C,Closed,138.3
+E0138,2024-04-08,2024-05-30,EMEA,DE,Financial Services,VP,Medium,Partner B,Closed,70.0
+E0139,2024-09-28,2025-02-06,Americas,BR,Financial Services,CxO,Medium,Partner B,Closed,155.6
+E0140,2024-11-17,2025-04-18,EMEA,UK,Technology,VP,Medium,Partner A,Closed,122.6
+E0141,2024-01-02,2024-04-25,EMEA,UK,Technology,VP,Medium,Partner D,Closed,105.7
+E0142,2025-10-13,,EMEA,NL,Industrial,Board,Small,Partner C,Open,78.8
+E0143,2025-01-20,2025-07-14,APAC,SG,Industrial,CxO,Medium,Partner C,Closed,140.2
+E0144,2024-01-27,2024-04-05,Americas,CA,Industrial,CxO,Medium,Partner B,Closed,118.1
+E0145,2025-09-25,,EMEA,NL,Technology,CxO,Medium,Partner B,Open,98.7
+E0146,2025-09-16,2026-01-30,EMEA,ES,Financial Services,CxO,Small,Partner C,Closed,74.1
+E0147,2024-01-09,2024-02-02,EMEA,ES,Technology,CxO,Medium,Partner B,Cancelled,170.0
+E0148,2024-04-29,2025-01-02,EMEA,FR,Industrial,VP,Medium,Partner A,Closed,122.1
+E0149,2024-09-22,2024-12-03,EMEA,FR,Consumer,VP,Medium,Partner D,Closed,103.2
+E0150,2025-01-05,2025-07-18,EMEA,UK,Technology,VP,Medium,Partner B,Closed,89.0
+E0151,2025-06-13,2025-12-17,Americas,US,Industrial,CxO,Medium,Partner B,Closed,119.8
+E0152,2024-11-05,2025-01-23,APAC,AU,Technology,CxO,Large,Partner C,Closed,151.6
+E0153,2025-03-22,2025-12-05,EMEA,UK,Technology,CxO,Medium,Partner D,Closed,165.3
+E0154,2024-01-08,2024-06-13,Americas,BR,Technology,Board,Medium,Partner B,Closed,197.2
+E0155,2025-04-25,2025-10-27,EMEA,DE,Technology,VP,Large,Partner D,Closed,122.3
+E0156,2025-10-30,,Americas,CA,Industrial,CxO,Medium,Partner E,Open,115.3
+E0157,2025-01-19,2025-04-03,EMEA,DE,Consumer,CxO,Large,Partner D,Closed,153.1
+E0158,2024-11-28,2025-01-13,Americas,US,Technology,VP,Large,Partner C,Closed,121.0
+E0159,2024-08-04,2024-12-06,Americas,US,Financial Services,CxO,Small,Partner D,Closed,76.2
+E0160,2025-11-27,,Americas,CA,Industrial,Board,Medium,Partner C,Open,182.2
+E0161,2024-01-25,2024-04-03,EMEA,NL,Consumer,Board,Medium,Partner C,Cancelled,186.6
+E0162,2024-07-28,2024-12-10,APAC,SG,Industrial,VP,Large,Partner C,Closed,112.6
+E0163,2024-04-11,2024-10-16,EMEA,DE,Technology,VP,Medium,Partner B,Closed,156.0
+E0164,2025-09-24,2025-11-28,EMEA,DE,Industrial,CxO,Small,Partner A,Closed,86.1
+E0165,2024-12-18,2025-03-30,Americas,CA,Financial Services,VP,Medium,Partner C,Closed,136.3
+E0166,2025-11-04,2026-03-05,EMEA,NL,Consumer,VP,Small,Partner A,Closed,75.4
+E0167,2025-04-30,2025-06-28,Americas,US,Financial Services,VP,Large,Partner C,Closed,135.6
+E0168,2025-02-10,2025-07-11,Americas,CA,Industrial,CxO,Medium,Partner C,Closed,128.3
+E0169,2025-01-12,2025-09-28,EMEA,ES,Technology,Board,Large,Partner E,Closed,224.6
+E0170,2024-05-27,2024-08-17,APAC,AU,Financial Services,VP,Large,Partner A,Closed,120.2
+E0171,2025-02-14,2025-08-17,EMEA,ES,Consumer,CxO,Medium,Partner C,Closed,156.0
+E0172,2025-05-15,2025-08-21,EMEA,DE,Industrial,VP,Medium,Partner C,Closed,86.4
+E0173,2025-12-05,,EMEA,UK,Financial Services,VP,Large,Partner A,Open,101.0
+E0174,2025-02-04,,APAC,AU,Consumer,Board,Large,Partner B,On Hold,225.1
+E0175,2025-11-16,,EMEA,ES,Consumer,VP,Large,Partner A,Open,127.1
+E0176,2025-11-20,,EMEA,ES,Financial Services,VP,Small,Partner B,Open,93.6
+E0177,2025-01-16,,EMEA,ES,Financial Services,VP,Medium,Partner B,On Hold,113.2
+E0178,2024-11-16,2025-02-10,APAC,JP,Financial Services,CxO,Small,Partner C,Closed,107.1
+E0179,2024-04-14,2024-11-19,APAC,AU,Industrial,VP,Large,Partner C,Closed,143.6
+E0180,2024-07-15,2024-09-24,Americas,CA,Financial Services,CxO,Medium,Partner A,Closed,162.3
+E0181,2025-10-03,2025-11-25,APAC,JP,Technology,VP,Medium,Partner A,Closed,76.5
+E0182,2024-04-10,2024-11-17,APAC,SG,Consumer,VP,Small,Partner A,Closed,83.3
+E0183,2024-10-16,,EMEA,DE,Consumer,VP,Medium,Partner C,On Hold,154.9
+E0184,2025-05-25,2025-11-28,EMEA,ES,Consumer,CxO,Large,Partner B,Closed,175.5
+E0185,2024-06-24,2024-09-28,Americas,CA,Consumer,Board,Small,Partner C,Closed,117.6
+E0186,2025-12-12,,Americas,US,Industrial,CxO,Small,Partner B,Open,78.7
+E0187,2025-04-19,2025-10-21,EMEA,UK,Industrial,CxO,Large,Partner A,Closed,199.1
+E0188,2024-01-21,2024-08-31,EMEA,DE,Industrial,CxO,Large,Partner E,Closed,166.8
+E0189,2024-06-29,2024-08-30,Americas,BR,Financial Services,CxO,Small,Partner A,Open,87.1
+E0190,2025-06-24,,EMEA,ES,Financial Services,CxO,Medium,Partner A,On Hold,128.9
+E0191,2025-09-22,2025-12-29,APAC,SG,Technology,VP,Large,Partner A,Cancelled,111.9
+E0192,2025-11-07,,EMEA,UK,Industrial,VP,Large,Partner E,Open,124.2
+E0193,2025-09-13,,EMEA,ES,Technology,CxO,Medium,Partner C,Open,108.0
+E0194,2024-02-24,2024-09-21,Americas,BR,Technology,VP,Medium,Partner C,Closed,107.4
+E0195,2025-06-16,2025-10-23,EMEA,DE,Financial Services,VP,Medium,Partner E,Closed,126.0
+E0196,2024-03-21,2024-10-27,EMEA,UK,Financial Services,CxO,Small,Partner A,Closed,98.6
+E0197,2024-02-25,2024-07-06,Americas,CA,Technology,CxO,Large,Partner E,Closed,160.5
+E0198,2025-05-20,2025-08-08,APAC,AU,Industrial,VP,Small,Partner B,Closed,91.9
+E0199,2024-12-15,2025-04-18,EMEA,NL,Consumer,VP,Small,Partner C,Closed,67.7
+E0200,2025-04-18,2025-12-08,EMEA,DE,Technology,VP,Large,Partner C,Closed,134.5
+E0201,2025-09-13,2026-01-02,Americas,BR,Technology,VP,Large,Partner B,Cancelled,150.8
+E0202,2024-02-20,2024-07-16,APAC,SG,Financial Services,VP,Large,Partner E,Closed,135.6
+E0203,2025-01-20,2025-03-27,EMEA,DE,Industrial,CxO,Medium,Partner A,Closed,117.4
+E0204,2025-09-01,2025-11-28,EMEA,DE,Consumer,VP,Medium,Partner E,Closed,116.9
+E0205,2024-11-17,2025-03-11,EMEA,NL,Technology,CxO,Medium,Partner B,Closed,165.7
+E0206,2025-01-17,,EMEA,NL,Industrial,VP,Medium,Partner C,On Hold,106.3
+E0207,2024-12-29,2025-05-17,EMEA,DE,Technology,Board,Medium,Partner E,Closed,196.0
+E0208,2025-10-24,,Americas,BR,Financial Services,CxO,Medium,Partner A,Open,124.6
+E0209,2024-02-06,2024-07-20,EMEA,NL,Consumer,VP,Medium,Partner E,Closed,143.0
+E0210,2025-10-02,,EMEA,DE,Technology,CxO,Large,Partner C,Open,148.0
+E0211,2025-08-18,2026-02-11,Americas,US,Technology,VP,Large,Partner D,Closed,134.2
+E0212,2025-08-16,2026-03-26,Americas,CA,Financial Services,CxO,Small,Partner A,Closed,108.5
+E0213,2024-10-27,2025-06-15,EMEA,DE,Industrial,VP,Medium,Partner C,Closed,84.2
+E0214,2025-01-11,2025-07-01,Americas,BR,Consumer,VP,Small,Partner D,Closed,66.6
+E0215,2024-09-26,2024-12-05,Americas,CA,Consumer,CxO,Medium,Partner C,Cancelled,137.0
+E0216,2024-07-02,2025-02-03,Americas,BR,Technology,VP,Medium,Partner A,Closed,90.0
+E0217,2025-10-01,2025-11-23,EMEA,FR,Technology,CxO,Small,Partner B,Closed,115.7
+E0218,2025-01-04,2025-06-09,EMEA,UK,Industrial,VP,Large,Partner E,Closed,142.9
+E0219,2025-06-12,2026-01-11,APAC,JP,Technology,VP,Medium,Partner A,Closed,99.5
+E0220,2024-03-14,2024-09-09,EMEA,UK,Consumer,VP,Large,Partner D,Closed,141.7
+E0221,2025-07-29,2025-10-08,EMEA,ES,Industrial,Board,Small,Partner E,Closed,105.3
+E0222,2025-04-25,2025-09-25,EMEA,ES,Technology,CxO,Small,Partner A,Closed,102.3
+E0223,2025-12-29,,Americas,CA,Consumer,VP,Medium,Partner A,Open,85.8
+E0224,2024-04-07,2024-06-02,APAC,JP,Technology,CxO,Small,Partner D,Closed,121.0
+E0225,2025-01-29,2025-06-05,EMEA,DE,Financial Services,CxO,Medium,Partner A,Closed,147.2
+E0226,2025-01-08,2025-08-09,APAC,JP,Financial Services,Board,Large,Partner C,Closed,225.5
+E0227,2025-01-28,2025-06-15,EMEA,FR,Financial Services,CxO,Small,Partner D,Closed,98.0
+E0228,2024-02-09,2024-07-04,Americas,BR,Industrial,VP,Small,Partner C,Closed,94.6
+E0229,2024-12-11,2025-05-06,Americas,US,Industrial,Board,Medium,Partner B,Closed,179.4
+E0230,2024-08-06,2025-02-13,EMEA,FR,Consumer,CxO,Medium,,Closed,128.7
+E0231,2025-03-26,2025-08-14,EMEA,UK,Consumer,VP,Medium,Partner C,Closed,119.5
+E0232,2024-06-18,,EMEA,NL,Financial Services,Board,Medium,Partner B,On Hold,173.7
+E0233,2024-11-13,2025-01-03,APAC,SG,Technology,VP,Large,Partner C,Closed,136.0
+E0234,2025-03-28,2025-07-04,Americas,CA,Industrial,CxO,Small,Partner E,Closed,102.1
+E0235,2024-02-16,2024-10-08,APAC,SG,Consumer,VP,Medium,Partner D,Closed,97.2
+E0236,2025-07-28,,Americas,US,Technology,VP,Medium,Partner C,Open,87.3
+E0237,2025-06-06,,EMEA,UK,Financial Services,VP,Large,Partner B,On Hold,130.8
+E0238,2024-02-11,2024-10-19,Americas,CA,Financial Services,CxO,Medium,Partner A,Closed,155.5
+E0239,2024-02-17,2024-08-26,EMEA,DE,Technology,CxO,Medium,Partner B,Closed,158.5
+E0240,2025-09-12,,EMEA,ES,Industrial,VP,Small,Partner A,Open,57.3
+E0241,2024-07-25,2024-12-22,Americas,BR,Financial Services,CxO,Small,Partner E,Closed,118.6
+E0242,2025-09-20,,Americas,CA,Industrial,CxO,Small,Partner B,Open,91.1
+E0243,2024-12-30,2025-09-04,EMEA,ES,Consumer,Board,Large,Partner D,Closed,228.7
+E0244,2024-09-06,2025-02-04,EMEA,UK,Consumer,VP,Medium,Partner A,Closed,121.9
+E0245,2024-07-18,2025-03-13,Americas,US,Financial Services,VP,Large,Partner B,Closed,136.0
+E0246,2025-04-26,2025-08-09,APAC,SG,Financial Services,VP,Small,Partner C,Closed,87.1
+E0247,2024-03-21,2024-11-13,Americas,BR,Industrial,VP,Large,Partner B,Closed,133.7
+E0248,2024-10-20,2024-12-26,EMEA,ES,Industrial,CxO,Large,Partner D,Closed,131.5
+E0249,2024-09-09,2024-10-30,EMEA,FR,Financial Services,CxO,Small,,Closed,105.5
+E0250,2024-04-22,2024-11-13,EMEA,NL,Consumer,CxO,Small,Partner E,Closed,115.1
+E0251,2024-09-14,2025-04-07,Americas,US,Technology,VP,Small,Partner A,Closed,69.4
+E0252,2025-01-20,2025-04-18,APAC,SG,Consumer,CxO,Large,Partner D,Closed,195.3
+E0253,2025-05-09,2025-10-21,EMEA,NL,Technology,VP,Small,Partner A,Closed,70.8
+E0254,2024-03-04,2024-08-18,EMEA,DE,Technology,VP,Medium,Partner E,Closed,125.2
+E0255,2025-09-28,,EMEA,UK,Financial Services,CxO,Medium,Partner C,Open,126.4
+E0256,2025-10-03,2026-01-22,Americas,US,Technology,CxO,Large,Partner B,Closed,193.2
+E0257,2025-05-20,2025-07-07,Americas,BR,Technology,Board,Medium,Partner A,Closed,171.2
+E0258,2025-11-05,,EMEA,UK,Technology,VP,Medium,Partner A,Open,114.3
+E0259,2024-11-08,2025-07-18,EMEA,DE,Financial Services,VP,Large,Partner B,Closed,138.7
+E0260,2025-08-22,,Americas,CA,Industrial,VP,Small,Partner E,Open,61.0
+E0261,2025-06-14,,EMEA,FR,Technology,CxO,Large,Partner D,On Hold,178.6
+E0262,2025-02-14,2025-07-28,Americas,US,Industrial,Board,Small,Partner E,Closed,136.7
+E0263,2024-05-11,2024-12-15,EMEA,NL,Consumer,CxO,Medium,Partner A,Closed,136.2
+E0264,2025-02-11,2025-09-30,EMEA,NL,Technology,Board,Large,Partner C,Closed,211.9
+E0265,2025-10-19,,APAC,JP,Technology,Board,Medium,Partner B,Open,116.9
+E0266,2025-12-19,,EMEA,NL,Consumer,Board,Medium,,Open,185.9
+E0267,2024-11-23,2025-04-15,EMEA,FR,Consumer,VP,Medium,Partner B,Closed,104.9
+E0268,2024-06-29,2025-02-12,EMEA,DE,Financial Services,Board,Medium,Partner B,Closed,181.8
+E0269,2025-06-29,2025-10-12,EMEA,FR,Industrial,Board,Medium,Partner C,Closed,164.9
+E0270,2024-02-25,2024-05-12,EMEA,NL,Technology,VP,Medium,Partner A,Closed,136.1
+E0271,2024-04-20,2024-12-02,EMEA,ES,Financial Services,CxO,Medium,Partner C,Closed,116.0
+E0272,2025-02-14,2025-02-27,EMEA,FR,Industrial,VP,Medium,Partner D,Cancelled,121.6
+E0273,2025-12-23,,EMEA,UK,Technology,VP,Medium,Partner A,Open,91.9
+E0274,2024-08-28,2025-01-29,Americas,US,Industrial,VP,Medium,Partner E,Closed,93.6
+E0275,2024-11-19,2025-06-27,Americas,BR,Financial Services,VP,Medium,Partner C,Closed,121.1
+E0276,2024-08-23,2025-02-03,EMEA,DE,Industrial,CxO,Small,Partner D,Closed,106.3
+E0277,2024-11-17,,EMEA,UK,Financial Services,VP,Large,Partner D,Open,104.1
+E0278,2024-01-06,2024-08-08,EMEA,DE,Financial Services,CxO,Medium,Partner D,Closed,120.7
+E0279,2025-03-10,2025-10-29,APAC,SG,Technology,CxO,Small,Partner D,Closed,111.1
+E0280,2025-03-11,,APAC,AU,Technology,CxO,Medium,Partner E,On Hold,125.9
+E0281,2024-08-18,2024-10-11,EMEA,NL,Industrial,Board,Large,Partner C,Closed,5.0
+E0282,2024-07-11,2024-09-21,EMEA,NL,Technology,VP,Small,Partner B,Closed,83.5
+E0283,2025-07-09,,EMEA,DE,Technology,CxO,Small,Partner A,Open,97.2
+E0284,2024-05-17,,EMEA,NL,Technology,Board,Small,Partner C,On Hold,118.2
+E0285,2024-02-04,,Americas,CA,Technology,CxO,Small,Partner A,Open,108.1
+E0286,2024-01-30,2024-07-25,EMEA,ES,Consumer,VP,Large,Partner B,Closed,150.4
+E0287,2025-10-05,,EMEA,NL,Financial Services,CxO,Large,Partner A,Open,134.8
+E0288,2024-09-22,2025-03-12,EMEA,NL,Consumer,VP,Small,Partner C,Closed,54.5
+E0289,2024-03-15,2024-11-29,EMEA,NL,Technology,VP,Large,Partner A,Closed,125.4
+E0290,2025-10-03,,EMEA,UK,Industrial,Board,Small,Partner C,On Hold,141.0
+E0291,2024-04-18,,Americas,US,Financial Services,VP,Medium,Partner D,Open,121.0
+E0292,2024-09-02,2025-02-08,EMEA,UK,Financial Services,CxO,Large,Partner D,Closed,175.2
+E0293,2024-01-16,2024-04-08,APAC,SG,Consumer,CxO,Medium,Partner B,Closed,133.8
+E0294,2025-05-10,2025-09-06,EMEA,DE,Consumer,VP,Small,Partner C,Closed,89.4
+E0295,2025-05-25,,Americas,CA,Consumer,VP,Medium,Partner C,On Hold,109.6
+E0296,2025-07-06,,APAC,AU,Technology,CxO,Large,Partner C,Open,150.9
+E0297,2024-07-11,2024-11-28,APAC,AU,Technology,CxO,Medium,Partner D,Closed,148.6
+E0298,2024-08-27,,Americas,BR,Industrial,CxO,Small,Partner B,On Hold,98.0
+E0299,2025-11-15,,Americas,CA,Technology,CxO,Small,Partner E,Open,99.8
+E0300,2025-08-22,,Americas,BR,Industrial,VP,Medium,Partner A,On Hold,90.5
+E0301,2024-01-28,2024-09-29,Americas,CA,Financial Services,VP,Medium,Partner D,Closed,119.5
+E0302,2025-05-20,2025-07-07,EMEA,DE,Financial Services,VP,Large,Partner C,Closed,128.0
+E0303,2025-08-16,,EMEA,DE,Consumer,Board,Large,Partner B,Open,208.4
+E0304,2025-02-12,2025-05-14,EMEA,DE,Industrial,VP,Large,Partner D,Cancelled,122.7
+E0305,2025-04-12,2025-06-01,APAC,AU,Technology,VP,Large,Partner A,Closed,150.8
+E0306,2024-01-01,2024-08-13,EMEA,DE,Technology,VP,Small,Partner D,Closed,88.1
+E0307,2024-01-22,2024-07-10,EMEA,ES,Industrial,Board,Medium,Partner C,Closed,175.6
+E0308,2024-01-26,2024-09-01,Americas,CA,Financial Services,CxO,Medium,Partner A,Closed,119.8
+E0309,2024-04-26,2024-10-03,EMEA,ES,Technology,CxO,Medium,Partner A,Closed,126.5
+E0310,2025-12-24,,EMEA,FR,Financial Services,Board,Large,Partner D,Open,187.0
+E0311,2025-04-08,2025-10-26,EMEA,DE,Industrial,CxO,Medium,Partner B,Closed,149.0
+E0312,2025-07-25,,EMEA,DE,Consumer,CxO,Large,Partner E,Open,145.2
+E0313,2024-08-03,2024-10-01,EMEA,FR,Financial Services,VP,Medium,Partner D,Closed,120.7
+E0314,2025-11-15,,EMEA,DE,Financial Services,CxO,Medium,Partner D,Open,105.8
+E0315,2024-05-25,2024-12-06,EMEA,DE,Technology,VP,Medium,Partner B,Closed,132.1
+E0316,2025-10-20,2026-03-18,EMEA,ES,Financial Services,CxO,Small,Partner D,Closed,98.3
+E0317,2024-01-23,2024-09-15,EMEA,UK,Technology,VP,Small,Partner E,Closed,75.6
+E0318,2024-01-15,2024-09-26,Americas,US,Financial Services,CxO,Medium,Partner A,Closed,127.9
+E0319,2024-02-27,2024-09-12,EMEA,UK,Industrial,CxO,Small,Partner B,Closed,111.2
+E0320,2025-08-01,2025-12-16,APAC,AU,Technology,VP,Large,Partner B,Closed,136.7
+E0321,2024-07-06,2025-03-10,APAC,JP,Technology,VP,Small,Partner B,Closed,91.1
+E0322,2024-11-25,2025-05-15,EMEA,FR,Technology,CxO,Small,Partner D,Closed,112.1
+E0323,2024-12-10,,EMEA,NL,Consumer,CxO,Large,Partner C,On Hold,188.8
+E0324,2025-07-30,2026-02-26,EMEA,NL,Industrial,VP,Small,Partner C,Closed,66.7
+E0325,2024-09-11,2025-01-02,Americas,CA,Technology,VP,Large,Partner B,Closed,94.3
+E0326,2024-01-05,,Americas,US,Consumer,Board,Large,Partner A,On Hold,210.4
+E0327,2024-10-09,2025-05-19,Americas,US,Financial Services,CxO,Small,Partner B,Closed,92.1
+E0328,2024-07-29,2025-02-13,EMEA,NL,Financial Services,CxO,Medium,Partner E,Closed,137.7
+E0329,2025-06-17,2025-09-23,Americas,US,Consumer,VP,Medium,Partner C,Closed,83.7
+E0330,2025-07-02,2026-01-03,EMEA,ES,Technology,CxO,Large,Partner B,Closed,198.1
+E0331,2024-03-08,2024-07-02,Americas,US,Technology,CxO,Large,Partner D,Closed,170.3
+E0332,2025-08-01,,EMEA,NL,Financial Services,VP,Large,Partner A,Open,150.2
+E0333,2024-02-21,2024-05-09,Americas,BR,Technology,CxO,Medium,Partner B,Closed,132.0
+E0334,2025-03-28,2025-11-22,APAC,SG,Industrial,CxO,Medium,Partner B,Closed,129.3
+E0335,2024-10-11,2025-04-02,EMEA,ES,Technology,CxO,Medium,Partner E,Closed,140.0
+E0336,2024-08-07,,Americas,US,Technology,Board,Large,Partner D,Closed,224.8
+E0337,2024-12-18,2025-04-21,EMEA,NL,Technology,Board,Medium,,Closed,180.9
+E0338,2024-08-14,2025-04-18,Americas,US,Financial Services,CxO,Medium,Partner A,Closed,146.7
+E0339,2025-08-02,2026-03-01,EMEA,FR,Technology,VP,Medium,Partner A,Closed,111.5
+E0340,2025-12-06,,APAC,AU,Technology,VP,Large,Partner C,Open,131.0
+E0341,2025-08-18,2026-01-20,EMEA,UK,Consumer,Board,Large,Partner B,Closed,273.2
+E0342,2024-11-16,2025-05-11,APAC,SG,Financial Services,CxO,Small,Partner E,Closed,106.8
+E0343,2025-01-02,2025-06-18,Americas,US,Financial Services,Board,Small,Partner D,Closed,114.5
+E0344,2024-11-22,2025-02-04,Americas,CA,Technology,VP,Medium,Partner C,Closed,130.8
+E0345,2025-08-02,,Americas,US,Financial Services,Board,Medium,Partner D,Open,160.2
+E0346,2025-02-07,2025-08-31,Americas,CA,Technology,VP,Medium,Partner E,Closed,90.5
+E0347,2024-12-07,2025-05-24,APAC,JP,Industrial,CxO,Small,Partner C,Closed,900.0
+E0348,2024-10-25,2025-02-21,EMEA,ES,Technology,VP,Medium,Partner C,Closed,114.7
+E0349,2024-09-30,2025-01-17,Americas,CA,Consumer,CxO,Medium,Partner E,Closed,140.5
+E0350,2025-02-07,,EMEA,NL,Consumer,VP,Medium,Partner B,On Hold,75.3
+E0351,2025-05-17,2025-11-25,Americas,US,Technology,CxO,Medium,Partner E,Closed,131.3
+E0352,2024-11-11,2025-03-17,EMEA,ES,Technology,VP,Large,Partner A,Closed,146.5
+E0353,2025-08-11,,Americas,CA,Technology,CxO,Medium,Partner C,Open,79.4
+E0354,2025-08-26,2025-12-12,Americas,CA,Industrial,VP,Large,Partner D,Cancelled,136.4
+E0355,2024-11-09,2025-05-14,EMEA,UK,Technology,VP,Medium,Partner C,Closed,113.6
+E0356,2025-10-25,,EMEA,NL,Consumer,VP,Medium,Partner C,Open,77.5
+E0357,2024-05-06,2024-11-23,Americas,BR,Industrial,CxO,Medium,Partner C,Closed,133.5
+E0358,2025-11-11,2026-03-26,Americas,BR,Industrial,CxO,Small,Partner A,Closed,140.2
+E0359,2024-08-02,2025-03-20,EMEA,ES,Financial Services,CxO,Medium,Partner B,Closed,133.3
+E0360,2025-02-15,2025-05-03,Americas,BR,Consumer,CxO,Medium,Partner B,Closed,100.6
+E0361,2024-07-26,2024-09-29,APAC,SG,Technology,CxO,Large,Partner C,Closed,171.8
+E0362,2024-11-18,2025-07-15,EMEA,DE,Financial Services,VP,Medium,Partner C,Closed,125.3
+E0363,2024-09-05,2024-11-13,EMEA,DE,Financial Services,VP,Small,Partner B,Closed,63.5
+E0364,2025-05-29,2025-11-30,EMEA,ES,Consumer,CxO,Medium,Partner E,Closed,155.8
+E0365,2024-02-29,2024-04-28,Americas,CA,Financial Services,VP,Small,Partner B,Cancelled,81.6
+E0366,2025-09-03,,EMEA,UK,Industrial,VP,Large,Partner C,Open,96.2
+E0367,2025-10-21,,Americas,BR,Technology,VP,Large,Partner C,Open,125.6
+E0368,2025-02-14,2025-07-07,Americas,CA,Consumer,CxO,Medium,Partner A,Closed,127.5
+E0369,2025-02-03,2025-08-31,EMEA,ES,Financial Services,CxO,Medium,Partner D,Closed,134.9
+E0370,2025-05-25,,APAC,JP,Financial Services,VP,Medium,Partner C,On Hold,82.7
+E0371,2024-05-25,2024-10-31,Americas,US,Consumer,CxO,Medium,Partner A,Closed,143.3
+E0372,2025-07-01,2026-03-17,EMEA,DE,Financial Services,CxO,Large,Partner E,Closed,158.4
+E0373,2024-06-08,,EMEA,FR,Financial Services,VP,Large,Partner D,On Hold,144.5
+E0374,2025-05-08,2025-10-02,EMEA,ES,Financial Services,VP,Medium,Partner D,Closed,103.6
+E0375,2024-08-11,2025-03-13,EMEA,NL,Technology,VP,Medium,Partner E,Closed,111.1
+E0376,2025-06-28,2025-11-18,EMEA,DE,Financial Services,VP,Small,Partner E,Closed,71.7
+E0377,2025-07-31,2025-12-05,APAC,AU,Technology,CxO,Small,Partner B,Closed,127.9
+E0378,2024-06-01,2024-12-25,EMEA,FR,Technology,CxO,Small,Partner C,Closed,109.4
+E0379,2025-03-26,,EMEA,NL,Consumer,CxO,Medium,Partner C,On Hold,109.4
+E0380,2024-12-29,2025-04-02,Americas,CA,Financial Services,CxO,Large,Partner B,Closed,188.4
+E0381,2024-08-02,2024-11-19,Americas,US,Financial Services,CxO,Medium,Partner B,Closed,137.0
+E0382,2025-03-05,2025-09-23,APAC,SG,Financial Services,VP,Small,Partner A,Closed,89.6
+E0383,2025-12-25,,Americas,CA,Financial Services,CxO,Small,Partner D,Open,114.4
+E0384,2024-01-02,2024-03-05,EMEA,UK,Industrial,VP,Medium,Partner D,Closed,125.8
+E0385,2025-11-29,,EMEA,FR,Consumer,CxO,Large,Partner D,Open,137.5
+E0386,2025-09-16,,APAC,SG,Consumer,CxO,Medium,Partner B,Open,123.1
+E0387,2025-01-21,2025-07-03,Americas,BR,Financial Services,Board,Large,Partner B,Closed,215.4
+E0388,2025-03-21,2025-05-06,APAC,SG,Financial Services,CxO,Large,Partner C,Open,145.2
+E0389,2024-09-26,2025-02-26,EMEA,ES,Financial Services,VP,Small,Partner C,Closed,90.8
+E0390,2024-04-04,2024-12-03,APAC,SG,Financial Services,CxO,Medium,Partner E,Closed,132.4
+E0391,2025-02-21,2025-03-08,Americas,BR,Financial Services,CxO,Large,Partner E,Cancelled,149.8
+E0392,2025-08-18,2026-01-22,EMEA,DE,Industrial,VP,Medium,Partner E,Closed,73.2
+E0393,2024-06-17,2024-09-29,Americas,CA,Financial Services,CxO,Small,Partner E,Closed,86.6
+E0394,2025-06-07,2025-09-07,Americas,US,Financial Services,Board,Large,Partner E,Closed,226.4
+E0395,2025-06-30,2025-08-29,EMEA,FR,Financial Services,CxO,Large,Partner C,Closed,200.2
+E0396,2025-07-07,2025-09-23,EMEA,NL,Financial Services,Board,Medium,Partner A,Closed,170.6
+E0397,2024-09-05,2025-03-29,Americas,CA,Technology,VP,Medium,Partner A,Closed,119.3
+E0398,2024-10-13,2025-04-15,EMEA,FR,Technology,CxO,Small,Partner B,Closed,93.8
+E0399,2024-10-30,2025-07-14,EMEA,ES,Industrial,Board,Large,Partner B,Closed,208.4
+E0400,2025-09-15,2026-02-28,EMEA,FR,Financial Services,Board,Medium,Partner A,Closed,174.0
+E0401,2025-10-19,,EMEA,DE,Technology,CxO,Small,Partner E,Open,78.9
+E0402,2024-10-29,2025-03-30,APAC,JP,Financial Services,Board,Medium,Partner A,Closed,174.8
+E0403,2025-12-09,2026-03-29,Americas,BR,Industrial,VP,Large,Partner E,Closed,183.7
+E0404,2025-02-20,2025-10-04,EMEA,DE,Technology,Board,Large,Partner D,Closed,205.2
+E0405,2024-10-08,2025-01-01,APAC,SG,Consumer,VP,Medium,Partner C,Closed,128.0
+E0406,2024-01-01,2024-07-10,APAC,JP,Consumer,CxO,Small,Partner D,Closed,109.6
+E0407,2025-03-22,2025-09-28,EMEA,NL,Financial Services,CxO,Large,Partner B,Closed,188.6
+E0408,2025-04-15,2025-09-23,Americas,CA,Industrial,Board,Large,Partner C,Closed,218.0
+E0409,2025-12-07,,EMEA,DE,Technology,VP,Medium,Partner A,Open,100.1
+E0410,2025-06-08,,APAC,SG,Consumer,VP,Medium,Partner E,Open,84.5
+E0411,2024-01-22,2024-08-19,Americas,BR,Financial Services,Board,Medium,Partner B,Closed,156.1
+E0412,2025-02-17,2025-06-28,Americas,US,Consumer,Board,Medium,Partner B,Closed,206.7
+E0413,2025-06-26,2025-09-24,EMEA,FR,Financial Services,VP,Small,Partner D,Closed,70.8
+E0414,2024-12-28,2025-02-13,APAC,JP,Technology,CxO,Small,Partner D,Closed,80.3
+E0415,2024-11-09,,EMEA,NL,Technology,Board,Small,Partner C,On Hold,92.5
+E0416,2025-08-14,,EMEA,NL,Industrial,CxO,Large,Partner C,On Hold,166.0
+E0417,2025-03-22,2025-07-30,EMEA,FR,Financial Services,VP,Small,Partner A,Closed,103.5
+E0418,2025-05-12,2025-11-27,Americas,CA,Technology,VP,Small,Partner D,Closed,71.4
+E0419,2024-12-04,,EMEA,NL,Industrial,CxO,Medium,Partner B,On Hold,153.5
+E0420,2024-07-21,2024-09-26,APAC,JP,Consumer,VP,Small,Partner B,Closed,67.5
+E0421,2025-01-13,2025-06-25,Americas,US,Financial Services,CxO,Small,Partner A,Closed,102.0
+E0422,2025-12-01,,EMEA,NL,Financial Services,CxO,Medium,Partner B,Open,106.5
+E0423,2025-03-15,2025-06-29,EMEA,ES,Technology,CxO,Medium,Partner B,Closed,157.2
+E0424,2025-05-31,,EMEA,NL,Industrial,CxO,Medium,Partner C,Open,117.1
+E0425,2024-03-31,,Americas,CA,Financial Services,CxO,Large,Partner A,On Hold,143.7
+E0426,2025-12-22,,Americas,BR,Consumer,Board,Small,Partner A,Open,126.6
+E0427,2024-06-27,2024-11-21,EMEA,UK,Financial Services,CxO,Large,Partner C,Closed,172.5
+E0428,2025-12-10,2026-03-06,Americas,CA,Financial Services,VP,Large,Partner A,Closed,158.7
+E0429,2024-11-21,2025-01-22,EMEA,DE,Technology,Board,Large,Partner D,Open,222.1
+E0430,2025-11-01,2026-02-12,Americas,US,Technology,CxO,Medium,Partner E,Closed,165.8
+E0431,2025-10-13,,APAC,AU,Industrial,VP,Medium,Partner C,Open,101.2
+E0432,2025-07-05,2025-12-14,Americas,BR,Financial Services,VP,Medium,Partner E,Closed,111.9
+E0433,2025-10-30,2025-12-01,Americas,US,Financial Services,VP,Medium,Partner A,Cancelled,95.5
+E0434,2025-03-20,2025-09-03,Americas,BR,Consumer,VP,Small,Partner A,Closed,96.4
+E0435,2025-09-11,,EMEA,UK,Consumer,VP,Large,Partner D,Open,124.9
+E0436,2024-05-05,2024-08-01,EMEA,UK,Consumer,Board,Medium,Partner D,Closed,185.2
+E0437,2024-02-21,2024-10-04,EMEA,NL,Technology,CxO,Large,Partner D,Closed,126.5
+E0438,2025-01-31,,EMEA,FR,Financial Services,VP,Medium,Partner A,On Hold,114.5
+E0439,2025-08-14,,Americas,US,Consumer,CxO,Small,Partner D,Open,77.8
+E0440,2025-07-12,,Americas,US,Financial Services,Board,Medium,Partner B,On Hold,181.5
+E0441,2025-01-20,2025-07-07,APAC,JP,Technology,CxO,Medium,Partner B,Closed,169.2
+E0442,2025-01-15,2025-03-23,EMEA,NL,Industrial,CxO,Medium,Partner A,Closed,154.2
+E0443,2025-03-21,2025-07-31,Americas,CA,Financial Services,CxO,Medium,Partner E,Closed,151.6
+E0444,2025-09-25,,EMEA,UK,Financial Services,Board,Small,Partner A,Open,108.4
+E0445,2025-09-06,,EMEA,NL,Consumer,VP,Medium,Partner D,Open,98.1
+E0446,2024-03-21,2024-05-12,Americas,US,Industrial,VP,Medium,Partner C,Closed,115.2
+E0447,2025-03-10,2025-10-10,APAC,AU,Financial Services,CxO,Large,Partner D,Closed,158.8
+E0448,2024-10-05,2025-05-26,Americas,CA,Financial Services,VP,Small,Partner D,Closed,82.2
+E0449,2025-08-06,,EMEA,ES,Financial Services,Board,Medium,Partner E,Open,155.6
+E0450,2025-01-04,2025-05-19,Americas,BR,Technology,VP,Medium,Partner A,Closed,118.5
+E0451,2025-12-24,,EMEA,NL,Industrial,VP,Medium,Partner A,Open,52.1
+E0452,2024-11-11,2025-06-28,APAC,SG,Consumer,Board,Medium,Partner C,Closed,188.7
+E0453,2025-05-10,2025-09-14,Americas,US,Technology,VP,Medium,Partner B,Closed,114.7
+E0454,2024-03-20,2024-09-24,EMEA,UK,Technology,VP,Large,Partner A,Closed,134.7
+E0455,2025-11-11,,EMEA,NL,Consumer,VP,Medium,Partner A,Open,105.1
+E0456,2024-04-22,2024-11-17,EMEA,DE,Technology,VP,Medium,Partner B,Closed,103.7
+E0457,2024-10-03,2025-01-29,APAC,JP,Financial Services,CxO,Small,Partner A,Closed,132.8
+E0458,2025-09-03,2026-01-20,EMEA,ES,Financial Services,Board,Medium,Partner A,Closed,188.6
+E0459,2025-12-07,,Americas,BR,Industrial,VP,Medium,Partner E,Open,89.5
+E0460,2024-12-19,2025-03-09,Americas,US,Technology,VP,Small,Partner B,Closed,105.2
+E0461,2024-12-19,,Americas,CA,Industrial,VP,Medium,Partner E,Closed,112.8
+E0462,2024-02-05,2024-07-25,EMEA,FR,Financial Services,CxO,Medium,Partner E,Closed,150.0
+E0463,2025-12-15,,APAC,SG,Industrial,CxO,Large,Partner A,Open,153.4
+E0464,2024-01-13,2024-08-11,EMEA,UK,Technology,Board,Medium,Partner D,Closed,154.5
+E0465,2024-01-20,2024-03-20,Americas,CA,Financial Services,VP,Medium,Partner C,Closed,113.8
+E0466,2024-12-11,2025-07-10,Americas,CA,Financial Services,Board,Medium,Partner D,Closed,163.0
+E0467,2024-01-03,,Americas,BR,Technology,VP,Small,Partner A,On Hold,113.9
+E0468,2024-04-29,2024-09-09,APAC,JP,Technology,VP,Small,Partner A,Closed,66.0
+E0469,2025-04-03,2025-10-27,EMEA,UK,Technology,CxO,Medium,Partner A,Closed,120.1
+E0470,2025-05-29,2025-12-06,EMEA,FR,Financial Services,CxO,Large,Partner C,Closed,176.2
+E0471,2024-08-05,2024-09-22,EMEA,FR,Technology,CxO,Small,Partner E,Closed,112.0
+E0472,2025-08-03,2025-11-04,EMEA,UK,Consumer,VP,Medium,Partner D,Closed,126.2
+E0473,2025-03-19,2025-08-24,EMEA,DE,Financial Services,VP,Large,Partner D,Closed,108.3
+E0474,2024-06-15,,EMEA,FR,Industrial,CxO,Large,Partner E,On Hold,158.9
+E0475,2025-06-04,2025-10-22,EMEA,FR,Consumer,Board,Medium,Partner D,Closed,180.6
+E0476,2025-03-08,2025-06-02,EMEA,ES,Technology,CxO,Medium,Partner A,Closed,121.2
+E0477,2025-08-15,2026-01-10,EMEA,NL,Industrial,CxO,Medium,Partner E,Closed,129.1
+E0478,2024-04-22,2024-06-15,Americas,CA,Consumer,VP,Large,Partner B,Cancelled,155.9
+E0479,2024-06-17,2024-08-15,Americas,BR,Industrial,VP,Small,Partner A,Closed,83.2
+E0480,2024-08-09,,EMEA,UK,Financial Services,CxO,Large,Partner C,On Hold,173.9
+E0481,2024-09-06,2025-03-15,EMEA,ES,Financial Services,VP,Small,Partner E,Closed,79.7
+E0482,2025-10-10,2025-11-18,EMEA,NL,Technology,CxO,Large,Partner B,Cancelled,192.9
+E0483,2025-06-18,2025-08-11,Americas,US,Financial Services,VP,Small,Partner C,Closed,86.6
+E0484,2025-02-01,2025-08-03,EMEA,FR,Consumer,CxO,Small,Partner A,Closed,89.4
+E0485,2025-01-29,2025-08-31,EMEA,DE,Consumer,VP,Small,Partner A,Closed,67.0
+E0486,2025-10-08,2025-12-08,EMEA,UK,Technology,VP,Medium,Partner A,Closed,105.5
+E0487,2024-11-22,2025-05-04,EMEA,UK,Industrial,CxO,Medium,Partner D,Closed,185.4
+E0488,2024-06-13,,EMEA,UK,Technology,VP,Small,Partner E,On Hold,107.5
+E0489,2024-04-09,2024-05-22,Americas,BR,Consumer,VP,Medium,Partner A,Cancelled,145.4
+E0490,2024-08-28,2025-03-13,Americas,US,Technology,Board,Medium,Partner B,Closed,173.2
+E0491,2025-04-21,2025-11-13,Americas,BR,Consumer,Board,Large,Partner A,Closed,228.8
+E0492,2024-12-09,2025-07-04,Americas,BR,Consumer,VP,Large,Partner A,Closed,163.8
+E0493,2024-11-03,2025-02-14,Americas,CA,Technology,CxO,Medium,Partner C,Closed,154.4
+E0494,2024-12-16,2025-05-06,EMEA,DE,Technology,Board,Small,Partner D,Closed,160.3
+E0495,2025-12-12,,Americas,US,Consumer,CxO,Medium,Partner C,Open,108.8
+E0496,2025-12-29,,EMEA,FR,Technology,VP,Large,Partner B,Open,108.3
+E0497,2024-04-27,2024-09-20,EMEA,UK,Financial Services,CxO,Small,Partner C,Closed,78.0
+E0498,2024-03-24,2024-10-30,Americas,US,Consumer,CxO,Medium,Partner A,Closed,129.3
+E0499,2024-06-27,2024-11-06,EMEA,DE,Financial Services,VP,Large,Partner A,Closed,144.8
+E0500,2025-09-13,,EMEA,ES,Financial Services,CxO,Large,Partner E,Open,147.8
+E0501,2024-12-01,2025-02-12,Americas,US,Financial Services,VP,Medium,Partner D,Cancelled,124.9
+E0502,2025-09-22,2025-12-23,APAC,SG,Technology,CxO,Medium,Partner E,Closed,140.1
+E0503,2025-04-17,2025-07-21,APAC,JP,Consumer,VP,Medium,Partner E,Closed,103.2
+E0504,2025-02-07,2025-06-28,EMEA,NL,Technology,VP,Large,Partner C,Closed,153.1
+E0505,2024-07-24,2024-11-05,EMEA,ES,Technology,Board,Small,Partner E,Closed,138.8
+E0506,2024-09-08,2025-04-21,Americas,BR,Technology,VP,Small,Partner C,Closed,93.9
+E0507,2024-04-17,2024-07-09,EMEA,ES,Consumer,CxO,Medium,Partner A,Closed,129.9
+E0508,2025-01-14,2025-03-21,Americas,BR,Technology,Board,Small,Partner A,Closed,120.7
+E0509,2024-07-23,2024-11-09,EMEA,DE,Consumer,Board,Medium,Partner A,Closed,190.6
+E0510,2024-08-01,2025-03-24,EMEA,DE,Industrial,VP,Medium,Partner A,Closed,114.8
+E0511,2024-01-29,2024-03-29,EMEA,DE,Consumer,Board,Large,Partner B,Closed,202.4
+E0512,2025-08-06,,Americas,CA,Consumer,CxO,Large,Partner D,Open,143.6
+E0513,2025-11-16,,EMEA,ES,Consumer,Board,Medium,Partner D,Open,144.2
+E0514,2024-12-29,2025-05-15,EMEA,FR,Consumer,CxO,Large,Partner C,Closed,180.8
+E0515,2025-01-26,2025-06-12,EMEA,FR,Technology,CxO,Medium,Partner A,Closed,134.7
+E0516,2025-11-06,2026-01-19,EMEA,ES,Industrial,CxO,Medium,Partner D,Closed,99.7
+E0517,2025-01-08,2025-05-01,EMEA,FR,Financial Services,CxO,Small,Partner B,Closed,90.9
+E0518,2025-03-30,2025-04-22,Americas,CA,Financial Services,Board,Large,Partner A,Cancelled,233.4
+E0519,2024-11-08,2025-05-03,EMEA,UK,Consumer,VP,Large,Partner B,Closed,138.0
+E0520,2025-01-10,2025-03-01,Americas,CA,Consumer,CxO,Large,Partner B,Closed,173.6
+E0521,2025-01-15,2025-09-18,APAC,SG,Industrial,VP,Large,Partner B,Closed,153.6
+E0522,2025-06-03,,EMEA,FR,Financial Services,Board,Large,Partner D,Closed,199.8
+E0523,2025-03-17,2025-06-14,EMEA,FR,Financial Services,Board,Small,Partner D,Closed,135.8
+E0524,2025-01-02,2025-05-22,Americas,BR,Financial Services,CxO,Large,Partner D,Closed,149.3
+E0525,2024-02-25,2024-06-01,EMEA,UK,Financial Services,CxO,Medium,Partner A,Closed,143.0
+E0526,2025-10-22,,EMEA,FR,Financial Services,CxO,Medium,Partner D,Closed,102.2
+E0527,2025-10-10,,APAC,JP,Technology,VP,Medium,Partner D,Open,99.2
+E0528,2024-05-14,2024-10-31,APAC,AU,Technology,CxO,Medium,Partner A,Closed,145.4
+E0529,2024-08-02,2025-02-26,Americas,CA,Industrial,CxO,Medium,Partner C,Closed,146.6
+E0530,2025-12-11,,EMEA,NL,Financial Services,CxO,Small,Partner C,Open,109.1
+E0531,2024-08-22,2025-02-12,Americas,BR,Consumer,Board,Small,Partner C,Closed,160.1
+E0532,2025-08-15,2026-02-13,Americas,BR,Industrial,CxO,Medium,Partner A,Closed,173.1
+E0533,2025-07-27,,EMEA,FR,Technology,CxO,Large,Partner C,Open,161.8
+E0534,2025-09-20,2026-03-29,Americas,BR,Technology,CxO,Medium,Partner A,Closed,124.7
+E0535,2024-01-12,2024-07-23,EMEA,ES,Technology,Board,Medium,Partner A,Closed,173.7
+E0536,2024-12-18,,EMEA,FR,Consumer,VP,Medium,Partner A,On Hold,105.7
+E0537,2025-02-16,2025-08-16,EMEA,UK,Technology,VP,Medium,Partner E,Closed,117.6
+E0538,2025-09-03,,EMEA,NL,Financial Services,Board,Small,Partner B,Open,84.5
+E0539,2024-06-12,2024-09-27,EMEA,NL,Consumer,VP,Large,Partner B,Closed,140.2
+E0540,2024-08-11,2024-11-17,Americas,US,Consumer,VP,Small,Partner B,Closed,52.9
+E0541,2024-05-11,2024-11-18,APAC,AU,Technology,CxO,Large,Partner E,Closed,188.2
+E0542,2025-07-10,2026-03-07,Americas,BR,Technology,VP,Large,Partner C,Closed,124.1
+E0543,2025-12-30,,Americas,CA,Technology,VP,Medium,Partner E,Open,111.2
+E0544,2024-04-12,,APAC,SG,Technology,VP,Large,Partner B,On Hold,132.3
+E0545,2024-06-19,2025-02-21,EMEA,DE,Technology,VP,Medium,Partner A,Closed,119.4
+E0546,2024-08-12,2025-01-27,EMEA,ES,Financial Services,Board,Large,Partner C,Closed,236.3
+E0547,2025-10-10,,EMEA,ES,Consumer,CxO,Large,Partner B,Open,126.1
+E0548,2024-11-21,2025-03-14,EMEA,DE,Financial Services,CxO,Large,Partner D,Closed,164.8
+E0549,2024-07-24,2025-02-08,Americas,BR,Industrial,Board,Medium,Partner E,Closed,176.2
+E0550,2024-08-23,2024-12-03,EMEA,FR,Technology,CxO,Large,,Closed,174.3
+E0551,2025-03-12,2025-06-18,EMEA,ES,Industrial,VP,Large,Partner E,Closed,97.6
+E0552,2024-10-09,2025-06-22,EMEA,ES,Industrial,Board,Medium,Partner C,Closed,185.5
+E0553,2024-04-12,,EMEA,FR,Consumer,CxO,Large,Partner B,On Hold,166.5
+E0554,2025-08-21,,APAC,AU,Consumer,VP,Large,Partner C,On Hold,166.5
+E0555,2024-11-04,2025-05-03,EMEA,FR,Financial Services,CxO,Medium,Partner A,Closed,153.6
+E0556,2024-07-06,2024-11-29,EMEA,DE,Technology,CxO,Large,Partner D,Closed,170.6
+E0557,2025-06-15,2026-01-14,EMEA,DE,Technology,VP,Medium,Partner A,Closed,78.0
+E0558,2025-06-28,,EMEA,FR,Financial Services,CxO,Medium,Partner B,On Hold,104.9
+E0559,2024-04-23,2024-07-10,Americas,CA,Consumer,Board,Small,Partner C,Cancelled,102.2
+E0560,2024-02-23,,EMEA,UK,Financial Services,Board,Small,Partner A,On Hold,95.0
+E0561,2024-02-03,2024-05-06,EMEA,DE,Industrial,VP,Large,Partner A,Closed,161.6
+E0562,2025-07-12,2026-01-23,EMEA,UK,Financial Services,CxO,Medium,Partner D,Closed,121.9
+E0563,2025-04-01,2025-06-19,Americas,US,Technology,CxO,Medium,Partner A,Closed,119.5
+E0564,2025-08-01,2025-09-17,Americas,CA,Financial Services,Board,Small,Partner C,Closed,147.5
+E0565,2025-04-02,2025-08-04,Americas,CA,Industrial,CxO,Medium,Partner B,Closed,126.7
+E0566,2024-10-20,2025-05-26,Americas,BR,Industrial,VP,Large,Partner B,Closed,136.4
+E0567,2025-03-06,,Americas,CA,Financial Services,CxO,Large,Partner A,On Hold,143.3
+E0568,2025-06-11,2025-08-10,EMEA,UK,Technology,VP,Small,Partner D,Closed,105.8
+E0569,2024-10-18,2025-05-16,EMEA,NL,Industrial,CxO,Medium,Partner E,Closed,130.5
+E0570,2025-10-30,,EMEA,NL,Technology,CxO,Medium,Partner A,Open,91.3
+E0571,2025-10-18,,EMEA,DE,Consumer,VP,Medium,Partner E,Open,108.0
+E0572,2025-08-07,2025-11-02,Americas,CA,Technology,CxO,Medium,Partner C,Closed,141.6
+E0573,2025-12-25,,EMEA,DE,Technology,CxO,Medium,Partner C,Open,114.0
+E0574,2024-10-12,2025-03-03,Americas,CA,Financial Services,VP,Medium,Partner D,Closed,90.6
+E0575,2024-03-24,2024-05-09,APAC,JP,Financial Services,CxO,Medium,Partner D,Closed,115.7
+E0576,2024-12-19,2025-04-11,EMEA,NL,Financial Services,CxO,Medium,Partner D,Closed,132.0
+E0577,2025-06-28,2025-09-29,APAC,SG,Financial Services,VP,Medium,Partner C,Closed,122.4
+E0578,2025-07-22,2025-11-16,Americas,US,Consumer,CxO,Large,Partner C,Closed,165.3
+E0579,2024-10-10,2025-01-09,APAC,SG,Financial Services,CxO,Large,Partner B,Closed,163.7
+E0580,2024-08-01,2025-02-02,EMEA,FR,Financial Services,Board,Medium,Partner A,Closed,168.7
+E0581,2024-11-21,2025-04-09,EMEA,NL,Financial Services,CxO,Large,Partner D,Closed,203.7
+E0582,2025-08-09,2025-11-05,EMEA,DE,Technology,CxO,Large,Partner A,Closed,185.1
+E0583,2024-02-14,2024-05-19,EMEA,NL,Financial Services,VP,Small,Partner B,Closed,64.2
+E0584,2024-08-27,2024-10-24,EMEA,ES,Technology,CxO,Medium,Partner A,Closed,138.4
+E0585,2024-06-16,2024-10-01,APAC,JP,Industrial,VP,Medium,Partner A,Closed,134.6
+E0586,2025-08-11,2026-01-31,Americas,US,Technology,CxO,Large,Partner C,Closed,137.5
+E0587,2024-12-08,,EMEA,NL,Consumer,CxO,Small,Partner C,On Hold,105.5
+E0588,2024-03-04,2024-11-01,EMEA,NL,Financial Services,CxO,Medium,Partner C,Closed,177.9
+E0589,2024-07-10,2024-11-24,EMEA,UK,Consumer,VP,Medium,Partner A,Closed,94.7
+E0590,2024-02-02,2024-05-26,EMEA,FR,Financial Services,CxO,Medium,Partner C,Closed,138.3
+E0591,2024-12-13,,APAC,AU,Technology,CxO,Large,Partner B,On Hold,184.0
+E0592,2025-12-29,,EMEA,ES,Consumer,VP,Medium,Partner D,Open,76.4
+E0593,2025-02-18,2025-06-22,EMEA,DE,Industrial,CxO,Large,Partner C,Closed,143.9
+E0594,2025-09-26,,Americas,US,Industrial,CxO,Large,Partner C,Open,155.1
+E0595,2025-06-26,2026-02-18,EMEA,UK,Financial Services,VP,Large,Partner C,Closed,133.9
+E0596,2025-10-06,2026-03-19,EMEA,DE,Industrial,CxO,Small,Partner E,Closed,81.3
+E0597,2024-08-15,,Americas,BR,Consumer,Board,Large,Partner D,Open,207.7
+E0598,2025-11-25,,Americas,US,Industrial,CxO,Small,Partner C,Open,95.8
+E0599,2024-06-23,2024-08-15,APAC,AU,Financial Services,Board,Medium,Partner C,Cancelled,194.0
+E0600,2024-11-15,2025-04-14,Americas,CA,Industrial,CxO,Large,Partner A,Closed,206.2
+E0447,2025-03-10,2025-10-10,APAC,AU,Financial Services,CxO,Large,Partner D,Closed,158.8
+E0405,2024-10-08,2025-01-01,APAC,SG,Consumer,VP,Medium,Partner C,Closed,128.0
+E0510,2024-08-01,2025-03-24,EMEA,DE,Industrial,VP,Medium,Partner A,Closed,114.8
+E0456,2024-04-22,2024-11-17,EMEA,DE,Technology,VP,Medium,Partner B,Closed,103.7
+E0202,2024-02-20,2024-07-16,APAC,SG,Financial Services,VP,Large,Partner E,Closed,135.6
+E0024,2025-11-14,,APAC,AU,Financial Services,VP,Small,Partner C,Open,71.2
+E0416,2025-08-14,,EMEA,NL,Industrial,CxO,Large,Partner C,On Hold,166.0
+E0549,2024-07-24,2025-02-08,Americas,BR,Industrial,Board,Medium,Partner E,Closed,176.2
